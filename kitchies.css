@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#main {
+    background-image: url('images/chillipotato.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Heading Portion */
+#header {
+    height: 11vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid whitesmoke;
+}
+
+#header img {
+    margin: auto;
+    height: 60px;
+    width: 220px;
+}
+
+.navbar {
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+    text-align: center;
+    /* margin: 25px; */
+}
+
+.navbar ul li {
+    padding: 3px 15px;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li a {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+
+.header-right {
+    margin: auto;
+}
+
+#search {
+    padding: 5px;
+    font-size: 1.2rem;
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#search:hover {
+    color: black;
+}
+
+.burger{
+    margin: auto;
+    display: none;
+}
+
+.line{
+    background-color: black;
+    width: 33px;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+/* Reservation */
+#res{
+    display: flex;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#res h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+    margin: 25px;
+}
+
+#reservation {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#people {
+    font-size: 1.6rem;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#people1 {
+    font-size: 1.6rem;
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+#button {
+    margin: 20px;
+    width: 10%;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+#button:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+
+
+/* Start Section */
+#start {
+    height: 75vh;
+    margin: 75px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#start img {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.st {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.st h1 {
+    text-align: left;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.st h3 {
+    padding: 5px;
+    color: rgb(14, 14, 14);
+    text-align: left;
+    font-weight: lighter;
+    font-family: 'Alkatra', cursive;
+}
+
+
+/* Home section */
+#home {
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.box-h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box-h3 {
+    padding: 5px;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blank {
+    height: 50vh;
+    background: transparent;
+}
+
+
+/* Footer section */
+#footer {
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    justify-content: end;
+}
+
+/* .ftr {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .ftr a {
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+    padding: 2px 25px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.ftr a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+} */
+
+#footer h3 {
+    align-items: center;
+    padding: 15px;
+    color: rgb(35, 35, 35);
+}
+
+/* .last {
+    margin: 5px 300px;
+} */
